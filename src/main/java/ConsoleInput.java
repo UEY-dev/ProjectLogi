@@ -10,7 +10,7 @@ public class ConsoleInput {
     public Shipment createShipment() {
         System.out.print("Shipment ID: ");
         int id = input.nextInt();
-        input.nextLine(); // Buffer temizleme
+        input.nextLine();
 
         System.out.print("Origin: ");
         String origin = input.nextLine();
@@ -23,7 +23,7 @@ public class ConsoleInput {
 
         System.out.print("Total Weight: ");
         double weight = input.nextDouble();
-        input.nextLine(); // Buffer temizleme
+        input.nextLine();
 
         return new Shipment(id, origin, destination, status, weight);
     }
@@ -31,7 +31,6 @@ public class ConsoleInput {
     public Product createProduct() {
         System.out.print("Product Name: ");
         String name = input.nextLine();
-        // İhtiyaca göre alanlar eklenebilir
         return new Product(); 
     }
 

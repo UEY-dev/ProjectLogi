@@ -17,7 +17,7 @@ public class Main {
             System.out.print("Please pick: ");
 
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Scanner buffer temizliği
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
@@ -45,7 +45,7 @@ public class Main {
                     break;
 
                 case 6:
-                    System.out.println("Closing application...");
+                    System.out.println("Closing application");
                     scanner.close();
                     return;
 
