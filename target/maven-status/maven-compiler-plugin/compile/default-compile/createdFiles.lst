@@ -1,5 +1,9 @@
 Product.class
 Main.class
+Map.class
 Vehicle.class
+Wealth.class
+Database.class
+ConsoleInput.class
 Shipment.class
 Warehouse.class
