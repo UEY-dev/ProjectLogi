@@ -9,30 +9,29 @@ public class Database {
 
     public void addShipment(Shipment shipment) {
         shipments.add(shipment);
-        System.out.println("-> Shipment successfully added.");
+        System.out.println("Shipment added.");
     }
 
     public void addProduct(Product product) {
         products.add(product);
-        System.out.println("-> Product successfully added.");
+        System.out.println("Product added.");
     }
 
     public void addWarehouse(Warehouse warehouse) {
         warehouses.add(warehouse);
-        System.out.println("-> Warehouse successfully added.");
+        System.out.println("Warehouse added.");
     }
 
     public void addVehicle(Vehicle vehicle) {
         vehicles.add(vehicle);
-        System.out.println("-> Vehicle successfully added.");
+        System.out.println("Vehicle added.");
     }
 
     public void listele() {
-        System.out.println("\n--- LISTING RECORDS ---");
+        System.out.println("\nLISTING RECORDS");
         System.out.println("Shipments count: " + shipments.size());
         System.out.println("Products count: " + products.size());
         System.out.println("Warehouses count: " + warehouses.size());
         System.out.println("Vehicles count: " + vehicles.size());
-        System.out.println("-----------------------\n");
     }
 }
